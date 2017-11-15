@@ -9,6 +9,7 @@ namespace CRM2.Models
     {
         public string menuIcon { get; set; }
         public string menuName { get; set; }
+        public string path { get; set; }
 
         private bool _isSelected;
         public bool IsSelected

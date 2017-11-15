@@ -15,7 +15,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable () throws java.lang.Throwable
+	public FFGifDrawable ()
 	{
 		super ();
 		if (getClass () == FFGifDrawable.class)
@@ -23,7 +23,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable (android.content.res.Resources p0) throws java.lang.Throwable
+	public FFGifDrawable (android.content.res.Resources p0)
 	{
 		super (p0);
 		if (getClass () == FFGifDrawable.class)
@@ -31,7 +31,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable (android.content.res.Resources p0, android.graphics.Bitmap p1) throws java.lang.Throwable
+	public FFGifDrawable (android.content.res.Resources p0, android.graphics.Bitmap p1)
 	{
 		super (p0, p1);
 		if (getClass () == FFGifDrawable.class)
@@ -39,7 +39,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable (android.content.res.Resources p0, java.io.InputStream p1) throws java.lang.Throwable
+	public FFGifDrawable (android.content.res.Resources p0, java.io.InputStream p1)
 	{
 		super (p0, p1);
 		if (getClass () == FFGifDrawable.class)
@@ -47,7 +47,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable (android.content.res.Resources p0, java.lang.String p1) throws java.lang.Throwable
+	public FFGifDrawable (android.content.res.Resources p0, java.lang.String p1)
 	{
 		super (p0, p1);
 		if (getClass () == FFGifDrawable.class)
@@ -55,7 +55,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable (android.graphics.Bitmap p0) throws java.lang.Throwable
+	public FFGifDrawable (android.graphics.Bitmap p0)
 	{
 		super (p0);
 		if (getClass () == FFGifDrawable.class)
@@ -63,7 +63,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable (java.io.InputStream p0) throws java.lang.Throwable
+	public FFGifDrawable (java.io.InputStream p0)
 	{
 		super (p0);
 		if (getClass () == FFGifDrawable.class)
@@ -71,7 +71,7 @@ public class FFGifDrawable
 	}
 
 
-	public FFGifDrawable (java.lang.String p0) throws java.lang.Throwable
+	public FFGifDrawable (java.lang.String p0)
 	{
 		super (p0);
 		if (getClass () == FFGifDrawable.class)

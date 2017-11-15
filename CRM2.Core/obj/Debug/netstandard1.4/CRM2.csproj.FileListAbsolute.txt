@@ -18,3 +18,4 @@ D:\Xamarin Projects\CRM2\CRM2.Core\obj\Debug\netstandard1.4\CRM2.Views.ExpensesP
 D:\Xamarin Projects\CRM2\CRM2.Core\obj\Debug\netstandard1.4\CRM2.Views.InProgressPage.xaml.g.cs
 D:\Xamarin Projects\CRM2\CRM2.Core\obj\Debug\netstandard1.4\CRM2.Views.MyTasksPage.xaml.g.cs
 D:\Xamarin Projects\CRM2\CRM2.Core\obj\Debug\netstandard1.4\CRM2.Views.PendingPage.xaml.g.cs
+D:\Xamarin Projects\CRM2\CRM2.Core\obj\Debug\netstandard1.4\CRM2.AssemblyInfoInputs.cache

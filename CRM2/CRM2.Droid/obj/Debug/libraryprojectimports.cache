@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <Jars></Jars>
+  <Jars>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Forms.Droid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Platform\library_project_imports\res</ResolvedResourceDirectory>

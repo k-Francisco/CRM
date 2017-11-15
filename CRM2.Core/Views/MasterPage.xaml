@@ -71,8 +71,8 @@
                                Aspect="AspectFill"
                                VerticalOptions="CenterAndExpand"
                                HorizontalOptions="Start"
-                               HeightRequest="36"
-                               WidthRequest="36"
+                               HeightRequest="24"
+                               WidthRequest="24"
                                Margin="16, 8, 16,8"/>
 
                             <Label 

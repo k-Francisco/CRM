@@ -19,7 +19,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable () throws java.lang.Throwable
+	public FFBitmapDrawable ()
 	{
 		super ();
 		if (getClass () == FFBitmapDrawable.class)
@@ -27,7 +27,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable (android.content.res.Resources p0) throws java.lang.Throwable
+	public FFBitmapDrawable (android.content.res.Resources p0)
 	{
 		super (p0);
 		if (getClass () == FFBitmapDrawable.class)
@@ -35,7 +35,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable (android.content.res.Resources p0, android.graphics.Bitmap p1) throws java.lang.Throwable
+	public FFBitmapDrawable (android.content.res.Resources p0, android.graphics.Bitmap p1)
 	{
 		super (p0, p1);
 		if (getClass () == FFBitmapDrawable.class)
@@ -43,7 +43,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable (android.content.res.Resources p0, java.io.InputStream p1) throws java.lang.Throwable
+	public FFBitmapDrawable (android.content.res.Resources p0, java.io.InputStream p1)
 	{
 		super (p0, p1);
 		if (getClass () == FFBitmapDrawable.class)
@@ -51,7 +51,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable (android.content.res.Resources p0, java.lang.String p1) throws java.lang.Throwable
+	public FFBitmapDrawable (android.content.res.Resources p0, java.lang.String p1)
 	{
 		super (p0, p1);
 		if (getClass () == FFBitmapDrawable.class)
@@ -59,7 +59,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable (android.graphics.Bitmap p0) throws java.lang.Throwable
+	public FFBitmapDrawable (android.graphics.Bitmap p0)
 	{
 		super (p0);
 		if (getClass () == FFBitmapDrawable.class)
@@ -67,7 +67,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable (java.io.InputStream p0) throws java.lang.Throwable
+	public FFBitmapDrawable (java.io.InputStream p0)
 	{
 		super (p0);
 		if (getClass () == FFBitmapDrawable.class)
@@ -75,7 +75,7 @@ public class FFBitmapDrawable
 	}
 
 
-	public FFBitmapDrawable (java.lang.String p0) throws java.lang.Throwable
+	public FFBitmapDrawable (java.lang.String p0)
 	{
 		super (p0);
 		if (getClass () == FFBitmapDrawable.class)

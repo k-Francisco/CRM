@@ -17,7 +17,7 @@ public class LRUCache
 	}
 
 
-	public LRUCache (int p0) throws java.lang.Throwable
+	public LRUCache (int p0)
 	{
 		super (p0);
 		if (getClass () == LRUCache.class)

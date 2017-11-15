@@ -15,7 +15,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable () throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable ()
 	{
 		super ();
 		if (getClass () == SelfDisposingBitmapDrawable.class)
@@ -23,7 +23,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable (android.content.res.Resources p0) throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable (android.content.res.Resources p0)
 	{
 		super (p0);
 		if (getClass () == SelfDisposingBitmapDrawable.class)
@@ -31,7 +31,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable (android.content.res.Resources p0, android.graphics.Bitmap p1) throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable (android.content.res.Resources p0, android.graphics.Bitmap p1)
 	{
 		super (p0, p1);
 		if (getClass () == SelfDisposingBitmapDrawable.class)
@@ -39,7 +39,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable (android.content.res.Resources p0, java.io.InputStream p1) throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable (android.content.res.Resources p0, java.io.InputStream p1)
 	{
 		super (p0, p1);
 		if (getClass () == SelfDisposingBitmapDrawable.class)
@@ -47,7 +47,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable (android.content.res.Resources p0, java.lang.String p1) throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable (android.content.res.Resources p0, java.lang.String p1)
 	{
 		super (p0, p1);
 		if (getClass () == SelfDisposingBitmapDrawable.class)
@@ -55,7 +55,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable (android.graphics.Bitmap p0) throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable (android.graphics.Bitmap p0)
 	{
 		super (p0);
 		if (getClass () == SelfDisposingBitmapDrawable.class)
@@ -63,7 +63,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable (java.io.InputStream p0) throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable (java.io.InputStream p0)
 	{
 		super (p0);
 		if (getClass () == SelfDisposingBitmapDrawable.class)
@@ -71,7 +71,7 @@ public class SelfDisposingBitmapDrawable
 	}
 
 
-	public SelfDisposingBitmapDrawable (java.lang.String p0) throws java.lang.Throwable
+	public SelfDisposingBitmapDrawable (java.lang.String p0)
 	{
 		super (p0);
 		if (getClass () == SelfDisposingBitmapDrawable.class)
