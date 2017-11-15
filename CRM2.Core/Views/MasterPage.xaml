@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             xmlns:converter="clr-namespace:CRM2.Converters"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="CRM2.Views.MasterPage"
+             Title="Menu">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:SelectedItemEventArgsToSelectedItemConverter x:Key="SelectedItemConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="170"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <BoxView Grid.Row="0"
+                 BackgroundColor="#313A43"/>
+
+        <ffimage:CachedImage Grid.Row="0" Source="icon.png"
+                             x:Name="Picture"
+                             DownsampleToViewSize="True"
+                             Aspect="AspectFit"
+                             DownsampleHeight="60"
+                             HeightRequest="50"
+                             WidthRequest="50"
+                             VerticalOptions="Start"
+                             HorizontalOptions="Start"
+                             Margin="16,50,0,0">
+            <ffimage:CachedImage.Transformations>
+                <fftrans:CircleTransformation/>
+            </ffimage:CachedImage.Transformations>
+        </ffimage:CachedImage>
+
+        <Label Grid.Row="0"
+               Text="Joseph B. Lagunda"
+               Margin="16,115,0,0"
+               TextColor="#D6D8D9"
+               FontAttributes="Bold"/>
+
+        <Label Grid.Row="0"
+               Text="android.studio@android.com"
+               Margin="16,135,0,0"
+               FontSize="12"
+               TextColor="#D8D9DB"/>
+
+        <ListView Grid.Row="1" ItemsSource="{Binding MenuItems}"
+                  SeparatorVisibility="None"
+                  HasUnevenRows="True"
+                  BackgroundColor="#F5F5F5"
+                  SelectedItem="{Binding SelectedIndex, Mode=TwoWay}">
+            <ListView.Behaviors>
+                <behaviors:EventToCommandBehavior EventName="ItemSelected"
+                                                  Command="{Binding ItemSelectedCommand}"
+                                                  EventArgsConverter="{StaticResource SelectedItemConverter}"/>
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+
+                            <Image Source="{Binding menuIcon}"
+                               Aspect="AspectFill"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="Start"
+                               HeightRequest="36"
+                               WidthRequest="36"
+                               Margin="16, 8, 16,8"/>
+
+                            <Label 
+                               Text="{Binding menuName}"
+                               VerticalOptions="Center"
+                               FontSize="16"
+                               Margin="8,0">
+                                <Label.Triggers>
+                                    <DataTrigger TargetType="Label" Binding="{Binding IsSelected}" Value="true">
+                                        <Setter Property="FontAttributes" Value="Bold"/>
+                                        <Setter Property="TextColor" Value="#EFF2F3"/>
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Label" Binding="{Binding IsSelected}" Value="false">
+                                        <Setter Property="FontAttributes" Value="None"/>
+                                        <Setter Property="TextColor" Value="#6E6E6E"/>
+                                    </DataTrigger>
+                                </Label.Triggers>
+                            </Label>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </Grid>
+  
+</ContentPage>

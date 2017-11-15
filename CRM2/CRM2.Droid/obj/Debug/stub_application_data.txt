@@ -1,0 +1,2 @@
+android.app.Application
+CRM2.Droid
