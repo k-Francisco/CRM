@@ -2,6 +2,10 @@ CRM2.Droid.MainActivity, CRM2.Droid;md506194bdc82a8f11b08c5b60069dea5b1.MainActi
 CRM2.Droid.MainActivity, CRM2.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md506194bdc82a8f11b08c5b60069dea5b1.MainActivity
 CRM2.Droid.MainActivity;md506194bdc82a8f11b08c5b60069dea5b1.MainActivity
 crm2.droid.MainActivity;md506194bdc82a8f11b08c5b60069dea5b1.MainActivity
+CRM2.Droid.Renderers.CustomWebViewRenderer, CRM2.Droid;md50049a98f18176291a1acd75d8a4ef065.CustomWebViewRenderer
+CRM2.Droid.Renderers.CustomWebViewRenderer, CRM2.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50049a98f18176291a1acd75d8a4ef065.CustomWebViewRenderer
+CRM2.Droid.Renderers.CustomWebViewRenderer;md50049a98f18176291a1acd75d8a4ef065.CustomWebViewRenderer
+crm2.droid.renderers.CustomWebViewRenderer;md50049a98f18176291a1acd75d8a4ef065.CustomWebViewRenderer
 FFImageLoading.Forms.Droid.CachedImageRenderer, FFImageLoading.Forms.Droid;md5e521f01327eed797431cb38c6cf432a3.CachedImageRenderer
 FFImageLoading.Forms.Droid.CachedImageRenderer, FFImageLoading.Forms.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e521f01327eed797431cb38c6cf432a3.CachedImageRenderer
 FFImageLoading.Forms.Droid.CachedImageRenderer;md5e521f01327eed797431cb38c6cf432a3.CachedImageRenderer

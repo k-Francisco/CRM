@@ -136,3 +136,15 @@ D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\android\assets\Microsoft.Prac
 D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Newtonsoft.Json.dll
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.Abstractions.dll
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.dll
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Newtonsoft.Json.xml
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.pdb
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.xml
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.Abstractions.pdb
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.Abstractions.xml
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.dll.mdb
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\bin\Debug\Plugin.Settings.Abstractions.dll.mdb
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll.mdb
+D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\android\assets\Plugin.Settings.dll.mdb

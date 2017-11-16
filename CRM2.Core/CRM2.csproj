@@ -17,9 +17,11 @@
   <ItemGroup>
     <PackageReference Include="DLToolkit.Forms.Controls.FlowListView" Version="2.0.6" />
     <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
     <PackageReference Include="Prism.Core" Version="6.3.0" />
     <PackageReference Include="Prism.Forms" Version="6.3.0" />
     <PackageReference Include="Prism.Unity.Forms" Version="6.3.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.2.19" />
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.2.19" />
     <PackageReference Include="Xamarin.Forms" Version="2.4.0.282" />

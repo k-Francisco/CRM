@@ -1,4 +1,5 @@
-﻿using CRM2.Views;
+﻿using CRM2.Helpers;
+using CRM2.Views;
 using DLToolkit.Forms.Controls;
 using Prism.Unity;
 using Xamarin.Forms;
@@ -13,13 +14,22 @@ namespace CRM2
         {
             InitializeComponent();
             FlowListView.Init();
-            if (Device.Idiom == TargetIdiom.Desktop || Device.Idiom == TargetIdiom.Tablet)
+            if(Settings.FedAuthToken != string.Empty && Settings.rtFaToken != string.Empty)
             {
-                await NavigationService.NavigateAsync("MasterDPage/BaseNavigationPage/ActivitiesPage");
-            }
-            else {
                 await NavigationService.NavigateAsync(new System.Uri("/MasterDPage/BaseNavigationPage/ActivitiesPage", System.UriKind.Absolute));
             }
+            else
+            {
+                if (Device.Idiom == TargetIdiom.Desktop || Device.Idiom == TargetIdiom.Tablet)
+                {
+                    await NavigationService.NavigateAsync("LoginPage");
+                }
+                else
+                {
+                    await NavigationService.NavigateAsync("LoginPage");
+                }
+            }
+            
         }
 
         protected override void RegisterTypes()
@@ -35,6 +45,7 @@ namespace CRM2
             Container.RegisterTypeForNavigation<CompletedPage>();
             Container.RegisterTypeForNavigation<ExpensesPage>();
             Container.RegisterTypeForNavigation<CalendarPage>();
+            Container.RegisterTypeForNavigation<LoginPage>();
         }
     }
 }

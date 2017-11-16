@@ -5,6 +5,7 @@
     <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Forms.Droid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Platform\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Transformations\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\Plugin.Settings\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
@@ -12,6 +13,7 @@
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\FFImageLoading.Forms.Droid\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\FFImageLoading.Platform\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\FFImageLoading.Transformations\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Settings\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
@@ -20,6 +22,7 @@
     <ResolvedResourceDirectoryStamp>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Forms.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Platform.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\FFImageLoading.Transformations.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\Plugin.Settings.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Xamarin Projects\CRM2\CRM2\CRM2.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>

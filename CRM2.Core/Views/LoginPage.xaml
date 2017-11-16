@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:controls="clr-namespace:CRM2.Controls"
+             xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="CRM2.Views.LoginPage">
+
+    <controls:CustomWebView HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"
+                            Source="https://sharepointevo.sharepoint.com">
+        <controls:CustomWebView.Behaviors>
+            <behaviors:EventToCommandBehavior EventName="Navigating"
+                                              Command="{Binding GetTokenCommand}"/>
+        </controls:CustomWebView.Behaviors>
+    </controls:CustomWebView>
+
+</ContentPage>
